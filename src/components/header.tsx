@@ -1,5 +1,5 @@
 import React from "react";
-import { ModeToggle } from "./mode-toggle";
+
 import { ShoppingCartIcon } from "lucide-react";
 
 const Header = () => {
@@ -17,9 +17,7 @@ const Header = () => {
             Shop Online
           </span>
         </div>
-        <div>
-          <ModeToggle />
-        </div>
+        <div></div>
       </div>
     </div>
   );
